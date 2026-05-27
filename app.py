@@ -14,7 +14,7 @@ from reportlab.pdfgen import canvas
 # ============================================================
 # NAČÍTANIE MODELOV A PIPELINE CONFIG Z GITHUBU
 # ============================================================
-GITHUB_RAW = "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main"
+GITHUB_RAW = "https://raw.githubusercontent.com/mecasysdata/protypB/main"
 
 @st.cache_resource
 def load_models_and_config():
